@@ -1,0 +1,15 @@
+{
+    "synchronize_app" : "In order to synchronize your stocks, go to your {company_name} \"API and integrations\" page with this access token :",
+    "save_token" : "Save token",
+    "add_eventsunited_token" : "Then, once retrieved from your {company_name} inteface, put your platform access token here.",
+
+    "copy_token" : "Click here to copy your token to clipboard",
+    "copied_to_clipboard" : "Copied to clipboard",
+    "token_saved_successfully" : "Token saved successfully",
+
+    "change_location" : "Change location",
+    "location_warning" : "Be careful ! Changing selected location when synchronization is already up and running might cause some issue with stocks from one platform or another.\n It is highly recommended to do a back up from your stocks before doing it.",
+    "location_pass_warning" : "I know what I am doing.",
+    "location_changed_successfully" : "Selected location changed successfully",
+    "need_consent" : "We need your consent to update your selected location"
+}

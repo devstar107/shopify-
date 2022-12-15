@@ -1,0 +1,24 @@
+{
+    "questions" : [
+        {
+            "name" : "I need to synchronize more than one {company_name} platform to my Shopify store, how do I proceed ?",
+            "response" : "<p>Sadly, <strong>this is not yet possible.</strong> If you need to synchronize stocks from your Shopify store to multiple platforms it is required to use several Shopify stores (think about Shopify multisite, as you would regularly do for a multi-languages Shopify store for example). <br /><br /> If you already have different Shopify stores, then you need to set up multiple plugin integrations on your {company_name} interface, one for each Shopify store. Naturally, you will need to install {company_name}'s Shopify app on each of your Shopify store.</p>"
+        },
+        {
+            "name" : "I only have colors attributes and no print (or only print and no color), I can't pass the installation process, what am I suppose to do ?",
+            "response" : "<p> If you get into this issue, you probably already noticed that it is not possible to go any further in the installation process if you are not able to provide both a \"Print\" and a \"Color\" attribute (as well as a \"Size\" one of course) to link between Shopify and Events United. <br /><br /> If you alreayd have a \"Print\" or \"Color\" attribute (product option), you will need to take 30 seconds to think about your store. <br /> If you think you will not ever need to have both attributes, then just create an option with a bogus (yet recognizable) name as it is definitly non important. <br /br /> However, we always recommend on creating an option allowing you to use both \"Print\" and \"Color\" attributes. In order to properly set your Shopify store up, see the question below. </p>"
+        },
+        {
+            "name" : "I have a product on {company_name} which have a print variation as well as a color one, how am I supposed to set up my product in Shopify appropriately ?",
+            "response" : "<p> Shopify and {company_name} differ in the way they handle product variations. <br /> As of today if a product on your {company_name} interface has both a \"Print\" and a \"Color\" attribute, the only available solution yet is to create on your Shopify's products an option managing both. <br /><br /> In other words, instead of having an option, let's say, called \"Print\", and another one called \"Color\" for example, you would need to have an option called \"Print & Color\" in which you would handle every cases. <br /><br /> Once this option would be set up in your Shopify store, when linking and setting up the app in Events United, you would need to map both Events United's \"Print\" and \"Size\" attribute to this one and only \"Print & Color\" Shopify option. Then you would map each option value to their appropriate Events United value as you would normally do. <img src=\"/images/faq-both-attributes-not-valid.png\"/> <img src=\"/images/faq-only-print-valid.png\"/> <img src=\"/images/faq-both-attributes-valid.png\"/> </p>"
+        },
+        {
+            "name" : "I have a product succesfully linked with {company_name}, yet my stock does not seem to update, why ?",
+            "response" : "<p> If your product is displayed as synchronizeed in {company_name}, it may not necessarily means that the stocks synchronization is working. <br /> <br /> Please double check that : <ul> <li> Your product is matched with the respective product on both sides </li> <li> Your Shopify product options values are properly mapped with the {company_name} ones </li> <li> <strong>Your Shopify product handles print and/or color with one and only option</strong> </li> </ul> If you think you are doing everything right and still not manage to make things work as expected, please feel free to get in touch with the support or developper team. </p>"
+        }
+    ],
+    "help" : {
+        "infos" : "As explained in the FAQ, when it comes to set your integration up, it is mandatory to use the same Shopify option for your Print and Color attribute on the marketplace. <br /> Hence, we recommend that you have an option called \"Print & Color\" or similar for your products.",
+        "create_product_infos" : "Clicking the button below will create a product on your Shopify store with the necessary options to make things ready for you. <br /> Do not worry, this product <strong>will not</strong> appear on your storefront. <br /> If the options name given does not fit your needs, just head to the product page after it is created to change it."
+    }
+}

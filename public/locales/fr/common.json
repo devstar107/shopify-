@@ -1,0 +1,29 @@
+{
+    "company_name" : "Events United",
+
+    "shopify_token" : "Shopify token",
+    "eventsunited_token" : "{company_name} token",
+
+    "selected_location" : "Selected location",
+    "location" : {
+        "singular" : "location",
+        "plural" : "locations"
+    },
+
+    "settings" : "Settings",
+    "product" : {
+        "singular" : "Product",
+        "plural" : "Products"
+    },
+    "faq_and_help" : "FAQ & Help",
+    "faq" : "FAQ",
+    "help" : "Help",
+
+    "cancel" : "Cancel",
+    "save" : "Save",
+
+    "server_error" : "Server Error",
+    "try_again" : "Please try again",
+
+    "empty_input_error" : "Please do not let this field empty",
+}

@@ -1,0 +1,31 @@
+{
+    "no_marketplace_token" : "Please provide your marketplace token in the \"Settings\" section before using this feature.",
+
+    "sync_banner" : {
+        "title" : "Here you can trigger a manual synchronization for your products.",
+        "content" : "<p>It can be very useful either :</p> <ul> <li>If you just changed your selected location and want to re-synchronize your stocks</li> <li>Or, if you want to test if a product is successfully synchronized</li> </ul>"
+    },
+
+    "duration_banner" : {
+        "title" : "Synchronization duration",
+        "content" : "Synchronization can take up to several minutes depending on your products & variants quantity. It is recommended not to close this page while synchronization is performing."
+    },
+
+    "inStock" : "in stock",
+    "inStockForVariants" : "{parsedStock} in stock for {variantsLength} variants",
+    "inStockForSelectedLocation" : "including {selectedLocationParsedStock} in stock for your selected location",
+
+    "synchronize" : "Synchronize",
+    "sync_status" : "Synchronization status",
+
+    "status" : {
+        "success" : "Success",
+        "some_error" : "Some error",
+        "attention" : "No matching product",
+        "not_synchronized" : "Not synchronized"
+    },
+
+    "check_missing_option" : "Variant can't be synchronized if it misses <strong>Size</strong> OR <strong>Print and/or Color</strong> option.",
+    "check_integration_parameters" : "Please check that both options : <strong>{option1}</strong> and <strong>{option2}</strong> are existant and paired in your marketplace integration parameters.",
+    "check_matching_product" : "No matching product found. This may not be an error if the product is not meant to be paired with your marketplace. Otherwise, check your marketplace integration parameters."
+}
